@@ -4,7 +4,7 @@ import random
 
 def get_user_input():
     print('Hi you in "OFLO"\n"one file - lots objects"\n'
-          'possibly would be available at:"https://github.com/Xawek"\n'
+          'available at:"https://github.com/Xawek"\n'
           'When I was too lazy to create five directories and 2-3 files')
     target_dir = input("Enter path to target directory: ")
     dir_name = input("Enter a base name for directories: ")
