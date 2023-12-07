@@ -11,7 +11,7 @@ def get_user_input():
     dir_name = input("Enter a base name for directories: ")
     dir_count = int(input("Enter the number of directories: "))
     file_name = input("Enter a base name for files: ")
-    min_files = int(int(input("Enter the minimum number of files: ")))
+    min_files = int(input("Enter the minimum number of files: "))
 
     while True:
         max_files = int(int(input("Enter maximum number of files: ")))
