@@ -5,8 +5,7 @@ import random
 def get_user_input():
     print('Hi you in "OFLO"\n"one file - lots objects"\n'
           'possibly would be available at:"https://github.com/Xawek"\n'
-          'When I was too lazy to create five folders and 2-3 files'
-          '\noh damn, I said folders instead of directories ^_^')
+          'When I was too lazy to create five directories and 2-3 files')
     target_dir = input("Enter path to target directory: ")
     dir_name = input("Enter a base name for directories: ")
     dir_count = int(input("Enter the number of directories: "))
@@ -14,7 +13,7 @@ def get_user_input():
     min_files = int(input("Enter the minimum number of files: "))
 
     while True:
-        max_files = int(int(input("Enter maximum number of files: ")))
+        max_files = int(input("Enter maximum number of files: "))
         if max_files >= min_files:
             break
         print('Error: max number of files'
